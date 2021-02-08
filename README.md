@@ -3,9 +3,9 @@ PHP Parser written in Go
 
 <img src="./parser.jpg" alt="PHP Parser written in Go" width="980"/>
 
-[![GoDoc](https://godoc.org/github.com/z7zmey/php-parser?status.svg)](https://godoc.org/github.com/z7zmey/php-parser)
+[![GoDoc](https://godoc.org/github.com/i582/php-parser?status.svg)](https://godoc.org/github.com/i582/php-parser)
 [![Build Status](https://travis-ci.org/z7zmey/php-parser.svg?branch=master)](https://travis-ci.org/z7zmey/php-parser)
-[![Go Report Card](https://goreportcard.com/badge/github.com/z7zmey/php-parser)](https://goreportcard.com/report/github.com/z7zmey/php-parser)
+[![Go Report Card](https://goreportcard.com/badge/github.com/i582/php-parser)](https://goreportcard.com/report/github.com/i582/php-parser)
 [![Maintainability](https://api.codeclimate.com/v1/badges/950783b2e739db26e0ed/maintainability)](https://codeclimate.com/github/z7zmey/php-parser/maintainability)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/950783b2e739db26e0ed/test_coverage)](https://codeclimate.com/github/z7zmey/php-parser/test_coverage)
 
@@ -40,8 +40,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/z7zmey/php-parser/php7"
-	"github.com/z7zmey/php-parser/visitor"
+	"github.com/i582/php-parser/php7"
+	"github.com/i582/php-parser/visitor"
 )
 
 func main() {
@@ -75,7 +75,7 @@ Install
 -------
 
 ```
-go get github.com/z7zmey/php-parser
+go get github.com/i582/php-parser
 ```
 
 CLI

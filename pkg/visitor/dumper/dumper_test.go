@@ -2,12 +2,12 @@ package dumper_test
 
 import (
 	"bytes"
-	"github.com/z7zmey/php-parser/pkg/position"
-	"github.com/z7zmey/php-parser/pkg/token"
-	"github.com/z7zmey/php-parser/pkg/visitor/dumper"
+	"github.com/i582/php-parser/pkg/position"
+	"github.com/i582/php-parser/pkg/token"
+	"github.com/i582/php-parser/pkg/visitor/dumper"
 	"testing"
 
-	"github.com/z7zmey/php-parser/pkg/ast"
+	"github.com/i582/php-parser/pkg/ast"
 )
 
 func TestDumper_root(t *testing.T) {

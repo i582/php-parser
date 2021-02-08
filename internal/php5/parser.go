@@ -1,12 +1,12 @@
 package php5
 
 import (
-	"github.com/z7zmey/php-parser/internal/position"
-	"github.com/z7zmey/php-parser/internal/scanner"
-	"github.com/z7zmey/php-parser/pkg/ast"
-	"github.com/z7zmey/php-parser/pkg/cfg"
-	"github.com/z7zmey/php-parser/pkg/errors"
-	"github.com/z7zmey/php-parser/pkg/token"
+	"github.com/i582/php-parser/internal/position"
+	"github.com/i582/php-parser/internal/scanner"
+	"github.com/i582/php-parser/pkg/ast"
+	"github.com/i582/php-parser/pkg/cfg"
+	"github.com/i582/php-parser/pkg/errors"
+	"github.com/i582/php-parser/pkg/token"
 )
 
 // Parser structure

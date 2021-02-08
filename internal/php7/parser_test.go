@@ -5,14 +5,14 @@ import (
 
 	"gotest.tools/assert"
 
-	"github.com/z7zmey/php-parser/internal/php7"
-	"github.com/z7zmey/php-parser/internal/scanner"
-	"github.com/z7zmey/php-parser/pkg/ast"
-	"github.com/z7zmey/php-parser/pkg/cfg"
-	"github.com/z7zmey/php-parser/pkg/errors"
-	"github.com/z7zmey/php-parser/pkg/position"
-	"github.com/z7zmey/php-parser/pkg/token"
-	"github.com/z7zmey/php-parser/pkg/version"
+	"github.com/i582/php-parser/internal/php7"
+	"github.com/i582/php-parser/internal/scanner"
+	"github.com/i582/php-parser/pkg/ast"
+	"github.com/i582/php-parser/pkg/cfg"
+	"github.com/i582/php-parser/pkg/errors"
+	"github.com/i582/php-parser/pkg/position"
+	"github.com/i582/php-parser/pkg/token"
+	"github.com/i582/php-parser/pkg/version"
 )
 
 func TestIdentifier(t *testing.T) {

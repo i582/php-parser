@@ -4,12 +4,12 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/z7zmey/php-parser/internal/php5"
-	"github.com/z7zmey/php-parser/internal/scanner"
-	"github.com/z7zmey/php-parser/pkg/ast"
-	"github.com/z7zmey/php-parser/pkg/cfg"
-	"github.com/z7zmey/php-parser/pkg/version"
-	"github.com/z7zmey/php-parser/pkg/visitor/printer"
+	"github.com/i582/php-parser/internal/php5"
+	"github.com/i582/php-parser/internal/scanner"
+	"github.com/i582/php-parser/pkg/ast"
+	"github.com/i582/php-parser/pkg/cfg"
+	"github.com/i582/php-parser/pkg/version"
+	"github.com/i582/php-parser/pkg/visitor/printer"
 )
 
 func parsePhp5(src string) ast.Vertex {

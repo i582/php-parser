@@ -2,8 +2,8 @@ package formatter
 
 import (
 	"bytes"
-	"github.com/z7zmey/php-parser/pkg/ast"
-	"github.com/z7zmey/php-parser/pkg/token"
+	"github.com/i582/php-parser/pkg/ast"
+	"github.com/i582/php-parser/pkg/token"
 )
 
 type formatterState int

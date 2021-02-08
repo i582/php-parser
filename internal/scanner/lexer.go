@@ -4,11 +4,11 @@ import (
 	"bytes"
 	"strings"
 
-	"github.com/z7zmey/php-parser/pkg/cfg"
-	"github.com/z7zmey/php-parser/pkg/errors"
-	"github.com/z7zmey/php-parser/pkg/position"
-	"github.com/z7zmey/php-parser/pkg/token"
-	"github.com/z7zmey/php-parser/pkg/version"
+	"github.com/i582/php-parser/pkg/cfg"
+	"github.com/i582/php-parser/pkg/errors"
+	"github.com/i582/php-parser/pkg/position"
+	"github.com/i582/php-parser/pkg/token"
+	"github.com/i582/php-parser/pkg/version"
 )
 
 type Lexer struct {

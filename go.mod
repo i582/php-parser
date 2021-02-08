@@ -1,4 +1,4 @@
-module github.com/z7zmey/php-parser
+module github.com/i582/php-parser
 
 go 1.13
 

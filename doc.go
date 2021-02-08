@@ -11,7 +11,7 @@ Features:
 
 Install:
 
-	go get github.com/z7zmey/php-parser
+	go get github.com/i582/php-parser
 
 CLI dumper:
 
@@ -26,8 +26,8 @@ Package usage example:
 		"bytes"
 		"os"
 
-		"github.com/z7zmey/php-parser/php7"
-		"github.com/z7zmey/php-parser/visitor"
+		"github.com/i582/php-parser/php7"
+		"github.com/i582/php-parser/visitor"
 	)
 
 	func main() {
@@ -51,4 +51,4 @@ Package usage example:
 		rootNode.Walk(visitor)
 	}
 */
-package main // import "github.com/z7zmey/php-parser"
+package main // import "github.com/i582/php-parser"

@@ -4,10 +4,10 @@ import (
 	"io/ioutil"
 	"testing"
 
-	"github.com/z7zmey/php-parser/internal/php7"
-	"github.com/z7zmey/php-parser/internal/scanner"
-	"github.com/z7zmey/php-parser/pkg/cfg"
-	"github.com/z7zmey/php-parser/pkg/version"
+	"github.com/i582/php-parser/internal/php7"
+	"github.com/i582/php-parser/internal/scanner"
+	"github.com/i582/php-parser/pkg/cfg"
+	"github.com/i582/php-parser/pkg/version"
 )
 
 func BenchmarkPhp7(b *testing.B) {

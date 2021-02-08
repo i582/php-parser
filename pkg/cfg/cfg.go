@@ -1,8 +1,8 @@
 package cfg
 
 import (
-	"github.com/z7zmey/php-parser/pkg/errors"
-	"github.com/z7zmey/php-parser/pkg/version"
+	"github.com/i582/php-parser/pkg/errors"
+	"github.com/i582/php-parser/pkg/version"
 )
 
 type Config struct {

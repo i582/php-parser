@@ -17,15 +17,15 @@ import (
 	"github.com/pkg/profile"
 	"github.com/yookoala/realpath"
 
-	"github.com/z7zmey/php-parser/pkg/ast"
-	"github.com/z7zmey/php-parser/pkg/cfg"
-	"github.com/z7zmey/php-parser/pkg/errors"
-	"github.com/z7zmey/php-parser/pkg/parser"
-	"github.com/z7zmey/php-parser/pkg/version"
-	"github.com/z7zmey/php-parser/pkg/visitor/dumper"
-	"github.com/z7zmey/php-parser/pkg/visitor/nsresolver"
-	"github.com/z7zmey/php-parser/pkg/visitor/printer"
-	"github.com/z7zmey/php-parser/pkg/visitor/traverser"
+	"github.com/i582/php-parser/pkg/ast"
+	"github.com/i582/php-parser/pkg/cfg"
+	"github.com/i582/php-parser/pkg/errors"
+	"github.com/i582/php-parser/pkg/parser"
+	"github.com/i582/php-parser/pkg/version"
+	"github.com/i582/php-parser/pkg/visitor/dumper"
+	"github.com/i582/php-parser/pkg/visitor/nsresolver"
+	"github.com/i582/php-parser/pkg/visitor/printer"
+	"github.com/i582/php-parser/pkg/visitor/traverser"
 )
 
 var wg sync.WaitGroup

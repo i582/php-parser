@@ -1,13 +1,13 @@
 package dumper
 
 import (
-	"github.com/z7zmey/php-parser/pkg/position"
-	"github.com/z7zmey/php-parser/pkg/token"
+	"github.com/i582/php-parser/pkg/position"
+	"github.com/i582/php-parser/pkg/token"
 	"io"
 	"strconv"
 	"strings"
 
-	"github.com/z7zmey/php-parser/pkg/ast"
+	"github.com/i582/php-parser/pkg/ast"
 )
 
 type Dumper struct {

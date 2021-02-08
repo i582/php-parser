@@ -3,8 +3,8 @@ package nsresolver
 
 import (
 	"errors"
-	"github.com/z7zmey/php-parser/pkg/ast"
-	"github.com/z7zmey/php-parser/pkg/visitor"
+	"github.com/i582/php-parser/pkg/ast"
+	"github.com/i582/php-parser/pkg/visitor"
 	"strings"
 )
 
